@@ -104,3 +104,7 @@ h1 {
   text-decoration: underline;
 }
 
+h1, h2, h3, nav a, .button, .person p, .people-heading {
+  font-family: 'Raleway', sans-serif;
+}
+
