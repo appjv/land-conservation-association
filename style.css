@@ -124,10 +124,10 @@ h1 {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.4); /* optional dark overlay for contrast */
+  background: rgba(0, 0, 0, 0.15); /* optional dark overlay for contrast */
   height: 100%;
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
