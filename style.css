@@ -14,12 +14,10 @@ header {
 
 /* Container for navigation and logo */
 .header-container {
-  position: relative;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   max-width: 1000px;
-  width: 100%;
   margin: 0 auto;
   padding: 1.5rem 2rem;
 }
@@ -41,13 +39,11 @@ header {
 
 /* Centered logo */
 .logo-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
 }
 
 .header-logo {
-  max-height: 120px;
+  max-height: 60px;
   width: auto;
 }
 
