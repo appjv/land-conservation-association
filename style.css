@@ -12,11 +12,11 @@ header {
   padding: 0;
 }
 
-/* Container for navigation and logo */
 .header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row; /* Align items horizontally */
+  align-items: center; /* Vertically center items */
+  justify-content: space-between; /* Space between nav and logo */
   max-width: 1000px;
   margin: 0 auto;
   padding: 1.5rem 2rem;
@@ -24,10 +24,9 @@ header {
 
 /* Navigation links aligned to the left */
 .nav-left {
-  align-self: flex-start;
   display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
+  gap: 1.5rem; /* Add spacing between nav links */
+  margin: 0; /* Remove any vertical margin */
 }
 
 .nav-left a {
@@ -39,7 +38,8 @@ header {
 
 /* Centered logo */
 .logo-center {
-  text-align: center;
+  flex-grow: 1; /* Allow the logo to take up remaining space */
+  text-align: center; /* Center the logo horizontally */
 }
 
 .header-logo {
@@ -147,7 +147,7 @@ h1 {
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   box-sizing: border-box;
 }
