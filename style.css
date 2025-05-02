@@ -132,6 +132,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;  /* ✅ Ensures width includes any padding */
 }
 
 .hero h1 {
