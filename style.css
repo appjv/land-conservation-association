@@ -12,48 +12,46 @@ header {
   padding: 0;
 }
 
-.header-bar {
+.header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  width: 100%;
   padding: 1.5rem 2rem;
-  z-index: 2;
 }
 
 .nav-left {
-  position: absolute;
-  left: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
   display: flex;
   gap: 1.5rem;
-  z-index: 2; /* <- Add this to bring it above the hero image */
 }
 
 .nav-left a {
-  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-weight: 500;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo-center {
-  z-index: 2;
-  position: relative;
+  text-align: center;
 }
 
 .header-logo {
-  height: 120px;
-  max-width: auto;
+  max-height: 60px;
+  width: auto;
+}
+
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  margin-top: 1rem;
   font-size: 2.5rem;
   letter-spacing: 1px;
 }
