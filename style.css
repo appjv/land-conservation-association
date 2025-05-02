@@ -21,6 +21,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 2rem;
+  z-index: 2;
 }
 
 .nav-left {
@@ -30,6 +31,7 @@ header {
   transform: translateY(-50%);
   display: flex;
   gap: 1.5rem;
+  z-index: 2; /* <- Add this to bring it above the hero image */
 }
 
 .nav-left a {
@@ -40,12 +42,13 @@ header {
 }
 
 .logo-center {
-  text-align: center;
+  z-index: 2;
+  position: relative;
 }
 
 .header-logo {
   height: 60px;
-  max-width: 120px;
+  max-width: auto;
 }
 
 h1 {
