@@ -12,19 +12,22 @@ header {
   padding: 0;
 }
 
+/* Container for navigation and logo */
 .header-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   max-width: 1000px;
   margin: 0 auto;
-  width: 100%;
   padding: 1.5rem 2rem;
 }
 
+/* Navigation links aligned to the left */
 .nav-left {
+  align-self: flex-start;
   display: flex;
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .nav-left a {
@@ -34,6 +37,7 @@ header {
   font-family: 'Raleway', sans-serif;
 }
 
+/* Centered logo */
 .logo-center {
   text-align: center;
 }
@@ -43,6 +47,7 @@ header {
   width: auto;
 }
 
+/* Hero content centered */
 .hero-content {
   max-width: 1000px;
   margin: 0 auto;
