@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
+  <header class="hero" id="hero">
     <div class="overlay">
       <div class="logo-nav">
         <img src="img/temp-logo.png" alt="LCA Logo" class="logo" />
@@ -51,5 +51,16 @@
   </section>
 
   <footer></footer>
+  <script>
+  const heroImages = [
+    'img/hero-banner.png',
+    'img/hero-banner2.jpg',
+    'img/hero-banner3.jpg'
+  ];
+
+  const randomImage = heroImages[Math.floor(Math.random() * heroImages.length)];
+
+  document.getElementById('hero').style.backgroundImage = `url('${randomImage}')`;
+</script>
 </body>
 </html>
