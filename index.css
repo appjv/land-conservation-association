@@ -8,7 +8,7 @@
   margin-top: 0;
   margin-bottom: 0;
   height: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/images/hero-banner_og.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('./images/hero-banner_og.png');
   background-position: 50% 50%;
 }
 
@@ -154,11 +154,13 @@
 
 .u-section-1 .u-text-8 {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 17px 0 0;
 }
 
 .u-section-1 .u-text-9 {
+  font-size: 0.9375rem;
+  font-style: normal;
   margin: 10px 0 0;
 }
 
@@ -411,7 +413,7 @@
 .u-section-3 .u-image-1 {
   width: 229px;
   height: 229px;
-  background-image: url("/images/5.jpg");
+  background-image: url("./images/5.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
@@ -476,7 +478,7 @@
 .u-section-3 .u-image-2 {
   width: 229px;
   height: 229px;
-  background-image: url("/images/7.jpg");
+  background-image: url("./images/7.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
