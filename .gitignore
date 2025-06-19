@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node (if you ever add one)
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Virtual environments
+venv
+.venv
+
+# Local build/output dirs
+dist/
+_build/
+_site/
+
+# IDE settings
+.vscode/
+.idea/
